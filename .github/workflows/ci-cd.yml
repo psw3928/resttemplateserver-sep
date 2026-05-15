@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main 
+      - main
 
 env:
   HARBOR_REGISTRY: 210.90.24.172:8080
